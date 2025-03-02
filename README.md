@@ -12,6 +12,8 @@ It was developed and tested only on Windows 10. Linux and macOS are unsupported,
 
 The `MinGW-w64` toolchain was used to compile and test the application. Use `mingw32-make` while in the src folder to build. No additional dependencies are required.
 
+Why is SDL embedded directly into the repo? Well, it was just easier for me to set up the makefile this way.
+
 ## Libraries used
 * [SDL2](https://github.com/libsdl-org/) [SDL2 LICENSE](./src/SDL2/LICENSE)
 
