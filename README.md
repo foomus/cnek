@@ -13,7 +13,7 @@ It was developed and tested only on Windows 10. Linux and macOS are unsupported,
 The `MinGW-w64` toolchain was used to compile and test the application. Use `mingw32-make` while in the src folder to build. No additional dependencies are required.
 
 ## Libraries used
-* [SDL2](https://www.libsdl.org/)
+* [SDL2](https://github.com/libsdl-org/) [SDL2 LICENSE](./src/SDL2/LICENSE)
 
 ## License
 [MIT License](LICENSE.md)
