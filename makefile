@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-g -Wall
-SDLPATH= -Isrc/SDL2/include -Lsrc/SDL2/lib
-LFLAGS= -lmingw32 -lSDL2main -lSDL2_image -lSDL2_ttf -lSDL2_mixer -lSDL2 #-mwindows 
+SDLPATH=-Isrc/SDL2/include -Lsrc/SDL2/lib
+LFLAGS=-lmingw32 -lSDL2main -lSDL2_image -lSDL2_ttf -lSDL2_mixer -lSDL2 -mwindows 
 
 BINDIR=./out/bin/
 OBJDIR=./out/obj/
